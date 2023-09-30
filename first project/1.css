@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Heebo:wght@200;400&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Heebo:wght@200;400&family=Poppins:wght@200&family=Roboto:wght@100&display=swap');
+.navbar{
+    margin-top: -1%;
+    margin-left: -1%;
+}
+ul {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(92, 86, 86);
+    height: 15vh;
+    margin-top: 0px;
+    
+    
+}
+li{
+    
+    list-style: none;
+    color: white;
+    cursor: pointer;
+
+}
+.buttonmenu{
+    cursor: pointer;
+    border-radius: 0.3em;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    font-size: 2.5em;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.maintext{
+    text-align: center;
+    padding: 0 10%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3em;
+    
+}
+.buttons{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    
+}
+.Maincall{
+    padding: 1.5% 0.8%;
+    margin: 0 0.6%;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(25, 25, 245);
+    color: white;
+}
+.Maincall:hover{
+    background-color: rgb(12, 12, 113);
+    
+}
+.secondarybutton{
+    border: 0px;
+    border-radius: 5px;
+    padding: 1.5% 0.8%;
+    margin: 0 0.6%;
+    cursor: pointer;
+    background-color: rgb(92, 86, 86);
+    color: white;
+    
+}
+.secondarybutton:hover{
+    background-color: rgb(39, 37, 37);
+
+}
+.mainboxes{
+    margin-top: 10%;
+   
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    
+}
+.boxes{
+    margin: 3% 0;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    border: solid 0.5px rgb(0, 0, 0);
+    
+    
+    
+
+}
+.lastrow{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5%;
+    
+    
+}
+.thumbnail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+    
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(86, 83, 83);
+}
+.thumbnailtext{
+    width: 95%;
+    
+}
+.navbutton{
+    padding-right: 5%;
+    
+}
+.view{
+    cursor: pointer;
+}
+.edit{
+    cursor: pointer;
+
+}

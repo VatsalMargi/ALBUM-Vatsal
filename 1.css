@@ -1,0 +1,31 @@
+/* h1{
+    color: blue;
+}
+#love{
+    background-color: lawngreen;
+}
+ul{
+    display: flex;
+}
+li{
+    margin: 20px;
+    list-style: none;
+    text-decoration: none;
+
+} */
+.parent{
+    margin: 20px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+.child1{
+    display: inline;
+    margin: auto;
+    background-color: green;
+}
+.child2{
+    display: inline;
+    margin: 5px;
+    background-color: green;
+}
